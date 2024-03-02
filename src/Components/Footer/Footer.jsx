@@ -17,14 +17,14 @@ const Footer = () => {
           <h3>ONLINE SHOPPING</h3>
           <ul>
             <li>
-              <Link to=''>Mens</Link>
+              <Link to='/product'>Spices</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to=''>Womens</Link>
             </li>
             <li>
               <Link to=''>Kids</Link>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="col3 col-same">

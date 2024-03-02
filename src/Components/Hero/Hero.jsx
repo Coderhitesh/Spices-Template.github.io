@@ -30,12 +30,35 @@ function Hero() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img className='swipersliderwidth' src="https://spicemunnar.com/wp-content/uploads/2019/01/black-pepper.jpg" alt="" />
+              <div className="slide_same">
+                <img className='swipersliderwidth' src="https://spicemunnar.com/wp-content/uploads/2019/01/black-pepper.jpg" alt="" />
+                <div className="slider-container">
+                  <span>Beat kerala spices</span>
+                  <p>from the high range</p>
+                  <Link to={''}>Shop Now <i class="ri-arrow-right-line"></i></Link>
+                </div>
+              </div>
             </SwiperSlide>
             <SwiperSlide>
-              <img className='swipersliderwidth' src="https://spicemunnar.com/wp-content/uploads/2019/01/clove-1.jpg" alt="" />
+              <div className="slide_same">
+                <img className='swipersliderwidth' src="https://spicemunnar.com/wp-content/uploads/2019/01/clove-1.jpg" alt="" />
+                <div className="slider-container">
+                <span>Pure spices</span>
+                  <p>Pesticide free, Grown naturally</p>
+                  <Link to={''}>Shop Now <i class="ri-arrow-right-line"></i></Link>
+                </div>
+              </div>
             </SwiperSlide>
-            <SwiperSlide><img className='swipersliderwidth' src="https://spicemunnar.com/wp-content/uploads/2019/01/nutmeg-2.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide>
+              <div className="slide_same">
+                <img className='swipersliderwidth' src="https://spicemunnar.com/wp-content/uploads/2019/01/nutmeg-2.jpg" alt="" />
+                <div className="slider-container">
+                <span>nutmeg, clove, cardamom</span>
+                  <p>best high quality spices</p>
+                  <Link to={''}>Shop Now <i class="ri-arrow-right-line"></i></Link>
+                </div>
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
         <div className="right">
@@ -45,7 +68,7 @@ function Hero() {
               <div className="content-detail">
                 <p>Up to 10% Off</p>
                 <span>Cardamom</span>
-                <Link to={''}>Shop Now</Link>
+                <Link to={''}>Shop Now <i class="ri-arrow-right-line"></i></Link>
               </div>
             </div>
             <div className="upright imgheightslider">
@@ -53,7 +76,7 @@ function Hero() {
               <div className="content-detail">
                 <p>Up to 5% Off</p>
                 <span>Cinnamon</span>
-                <Link to={''}>Shop Now</Link>
+                <Link to={''}>Shop Now <i class="ri-arrow-right-line"></i></Link>
               </div>
             </div>
           </div>
@@ -63,7 +86,7 @@ function Hero() {
               <div className="content-detail">
                 <p>Up to 5% Off</p>
                 <span>Star Anise</span>
-                <Link to={''}>Shop Now</Link>
+                <Link to={''}>Shop Now <i class="ri-arrow-right-line"></i></Link>
               </div>
             </div>
             <div className="downright imgheightslider">
@@ -71,7 +94,7 @@ function Hero() {
               <div className="content-detail">
                 <p>Up to 10% Off</p>
                 <span>Coriander</span>
-                <Link to={''}>Shop Now</Link>
+                <Link to={''}>Shop Now <i class="ri-arrow-right-line"></i></Link>
               </div>
             </div>
           </div>

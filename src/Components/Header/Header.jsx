@@ -48,7 +48,7 @@ function Header() {
                                     <Link onClick={handleMenuActiveFalse} to={'/'}>Home</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={handleMenuActiveFalse} to={'/shop'}>Shop</Link>
+                                    <Link onClick={handleMenuActiveFalse} to={'/product'}>Products</Link>
                                 </li>
                                 <li>
                                     <Link onClick={handleMenuActiveFalse} to={'about'}>About</Link>

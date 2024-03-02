@@ -1,0 +1,106 @@
+.product-section{
+    width: 100%;
+}
+
+.product-section .container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+.product-section .container .heading{
+    width: 100%;
+}
+
+.product-section .container .heading span{
+    font-size: 40px;
+    font-weight: 700;
+    font-variant: small-caps;
+    color: rgb(83, 83, 83);
+}
+
+.product-section .container .product-row{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-section .container .product-row .same-col{
+    width: 23%;
+    height: 330px;
+    border: 1px solid rgb(199, 199, 199);
+    padding: 15px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-section .container .product-row .same-col .img{
+    width: 100%;
+    height: 59%;
+}
+
+.product-section .container .product-row .same-col .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-section .container .product-row .same-col .product-detail{
+    width: 100%;
+    height: 39%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.product-section .container .product-row .same-col .product-detail h4{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.product-section .container .product-row .same-col .product-detail p{
+    color: #66CC33;
+}
+
+.product-section .container .product-row .same-col .product-detail a{
+    background-color: #66CC33;
+    padding: 7px 30px;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.product-section .container .product-row .same-col .product-detail a:hover{
+    background-color: #75e43e;
+}
+
+.product-section .container .product-row .same-col .product-detail .star{
+    color: rgb(213, 213, 213) !important;
+}
+
+@media (max-width:900px) {
+    .product-section .container .product-row .same-col{
+        width: 47%;
+    }
+}
+
+@media (max-width:530px) {
+    .product-section .container .product-row .same-col{
+        width: 100%;
+    }
+}
+
+@media (max-width:410px) {
+    .product-section .container{
+        padding: 40px 30px;
+    }
+}
